@@ -70,8 +70,8 @@ Update-Environment-Path
 # Languages
 #
 choco install php --yes
-choco install ruby --yes
-choco install ruby2.devkit --yes
+#choco install ruby --yes
+#choco install ruby2.devkit --yes
 choco install python2 --yes
 choco install jdk8 --yes
 Update-Environment-Path
@@ -139,11 +139,11 @@ code --install-extension ms-vscode.PowerShell
 code --install-extension ms-vscode.csharp
 
 # PHP support
-code --install-extension felixfbecker.php-debug
-code --install-extension HvyIndustries.crane
+#code --install-extension felixfbecker.php-debug
+#code --install-extension HvyIndustries.crane
 
 # Ruby support
-code --install-extension rebornix.Ruby
+#code --install-extension rebornix.Ruby
 
 # HTML, CSS, JavaScript support
 code --install-extension Zignd.html-css-class-completion
@@ -175,6 +175,9 @@ code --install-extension PeterJausovec.vscode-docker
 # PlantUML support
 code --install-extension jebbs.plantuml
 
+# Solidity support
+code --install-extension JuanBlanco.solidity
+
 #
 # MySQL
 #
@@ -204,24 +207,24 @@ choco install hugo --yes
 # choco install xenulinksleuth --yes
 
 # File Management
-choco install beyondcompare --yes
+#choco install beyondcompare --yes
 choco install 7zip --yes
-choco install filezilla --yes
-choco install dropbox --yes
+#choco install filezilla --yes
+#choco install dropbox --yes
 
 # Media Viewers
-choco install irfanview --yes
+#choco install irfanview --yes
 choco install vlc --yes
 
 # Browsers
-choco install googlechrome --yes
-choco install firefox --yes
+#choco install googlechrome --yes
+#choco install firefox --yes
 
 # Misc
 choco install sysinternals --yes
 choco install procexp --yes
-choco install awscli --yes
-choco install firacode --yes # See https://www.youtube.com/watch?v=KI6m_B1f8jc
+#choco install awscli --yes
+#choco install firacode --yes # See https://www.youtube.com/watch?v=KI6m_B1f8jc
 
 Update-Environment-Path
 
